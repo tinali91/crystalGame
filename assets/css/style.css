@@ -14,7 +14,8 @@ body {
 }
 
 .container {
-    padding: 20px;   
+    padding: 20px;
+    margin-bottom: 30px;   
 }
 
 .display-4, .lead {
