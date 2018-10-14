@@ -22,9 +22,18 @@ function newGame() {
     console.log(targetNumber);
     $("#number-to-guess").text(targetNumber);
 
+    crystalNums = [];
     //reassign random numbers to crystals
     for (var i = 0; i < 4; i++) {
         randomNum = Math.floor(Math.random() * 12) + 1;
+        
+        if (crystalNums.indexOf(randomNum) >= 0) {
+            randomNum = Math.floor(Math.random() * 12) + 1;
+            crystalNums.push(randomNum);
+        } else {
+            crystalNums.push(randomNum);
+        }
+        console.log(crystalNums)
 
         //creating crystals
         var imageCrystal = $("<img>");

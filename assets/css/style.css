@@ -18,9 +18,14 @@ body {
     margin-bottom: 30px;   
 }
 
-.display-4, .lead {
+.display-4 {
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
+    color: #fff;
+}
+
+.lead {
+    font-family: 'Raleway';
     color: #fff;
 }
 
