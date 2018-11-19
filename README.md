@@ -1,6 +1,6 @@
-# unit-4-game
+# crystalGame
 
-https://tinali91.github.io/unit-4-game/
+https://tinali91.github.io/crystalGame/
 
 This project has users click the different crystals to try to get a number that matches the target number.
 
